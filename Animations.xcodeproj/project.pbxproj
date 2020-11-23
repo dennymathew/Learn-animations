@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B062F575256AC213009F75A2 /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062F574256AC213009F75A2 /* ImplicitAnimation.swift */; };
+		B062F578256AC226009F75A2 /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062F577256AC226009F75A2 /* ExplicitAnimation.swift */; };
+		B062F57B256AC266009F75A2 /* GestureAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062F57A256AC266009F75A2 /* GestureAnimation.swift */; };
+		B062F57E256AC361009F75A2 /* ShowHideAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062F57D256AC361009F75A2 /* ShowHideAnimation.swift */; };
+		B062F581256AC65F009F75A2 /* AnimationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062F580256AC65F009F75A2 /* AnimationModifier.swift */; };
 		B094D5B3256A2BB400257C22 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094D5B2256A2BB400257C22 /* AnimationsApp.swift */; };
 		B094D5B5256A2BB400257C22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094D5B4256A2BB400257C22 /* ContentView.swift */; };
 		B094D5B7256A2BB700257C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B094D5B6256A2BB700257C22 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B062F574256AC213009F75A2 /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
+		B062F577256AC226009F75A2 /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
+		B062F57A256AC266009F75A2 /* GestureAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimation.swift; sourceTree = "<group>"; };
+		B062F57D256AC361009F75A2 /* ShowHideAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideAnimation.swift; sourceTree = "<group>"; };
+		B062F580256AC65F009F75A2 /* AnimationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModifier.swift; sourceTree = "<group>"; };
 		B094D5AF256A2BB400257C22 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B094D5B2256A2BB400257C22 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		B094D5B4256A2BB400257C22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +64,11 @@
 			children = (
 				B094D5B2256A2BB400257C22 /* AnimationsApp.swift */,
 				B094D5B4256A2BB400257C22 /* ContentView.swift */,
+				B062F57A256AC266009F75A2 /* GestureAnimation.swift */,
+				B062F574256AC213009F75A2 /* ImplicitAnimation.swift */,
+				B062F577256AC226009F75A2 /* ExplicitAnimation.swift */,
+				B062F57D256AC361009F75A2 /* ShowHideAnimation.swift */,
+				B062F580256AC65F009F75A2 /* AnimationModifier.swift */,
 				B094D5B6256A2BB700257C22 /* Assets.xcassets */,
 				B094D5BB256A2BB700257C22 /* Info.plist */,
 				B094D5B8256A2BB700257C22 /* Preview Content */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B062F578256AC226009F75A2 /* ExplicitAnimation.swift in Sources */,
+				B062F581256AC65F009F75A2 /* AnimationModifier.swift in Sources */,
+				B062F57B256AC266009F75A2 /* GestureAnimation.swift in Sources */,
+				B062F575256AC213009F75A2 /* ImplicitAnimation.swift in Sources */,
 				B094D5B5256A2BB400257C22 /* ContentView.swift in Sources */,
 				B094D5B3256A2BB400257C22 /* AnimationsApp.swift in Sources */,
+				B062F57E256AC361009F75A2 /* ShowHideAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
